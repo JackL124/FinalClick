@@ -1,7 +1,7 @@
 
  # **🔥FinalClick🔥** #
  [![License](https://img.shields.io/badge/License%20-Apache%202-337ab7.svg)](https://www.apache.org/licenses/LICENSE-2.0)
- [![](https://jitpack.io/v/JackL124/FinalPermission.svg)](https://jitpack.io/#JackL124/FinalPermission)
+ [![](https://jitpack.io/v/JackL124/FinalClick.svg)](https://www.jitpack.io/#JackL124/FinalClick)
  [![MinSdk](https://img.shields.io/badge/%20MinSdk%20-%2019%2B%20-f0ad4e.svg)](https://android-arsenal.com/api?level=19)
 
 
@@ -46,7 +46,7 @@ repositories {
 * ##### 2.在app build.gradle 中添加依赖
 ```
  dependencies {
- 	        implementation 'com.github.JackL124:FinalPermission:v1.0.0'
+ 	        implementation 'com.github.JackL124:FinalClick:v1.0.0'
  	}
 ```
 
