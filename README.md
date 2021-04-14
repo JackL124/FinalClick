@@ -49,6 +49,10 @@ repositories {
  	        implementation 'com.github.JackL124:FinalClick:v1.0.0'
  	}
 ```
+* ##### 3.配置全局点击间隔时间
+```
+ClickUtil.intervalMillis=500
+```
 
 至此,项目中所有点击（包涵 接口回调内部类/接口回调实现接口/Lambda表达式/xlm onClick/RecycleView....）均支持防快速点击，是不是简单粗暴话不多！！！
 
