@@ -16,6 +16,7 @@
         app:layout_constraintVertical_chainStyle="packed"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
+        android:layout_marginTop="20dp"
         android:text="button1"
         ></Button>
 
@@ -27,20 +28,55 @@
         app:layout_constraintRight_toRightOf="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="button2"
         ></Button>
 
     <Button
         android:id="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintLeft_toLeftOf="@+id/button1"
         app:layout_constraintRight_toRightOf="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="40dp"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="button3"
         ></Button>
+
+    <Button
+        android:id="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintLeft_toLeftOf="@+id/button1"
+        app:layout_constraintRight_toRightOf="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="button4"
+        ></Button>
+
+    <Button
+        android:id="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView"
+        app:layout_constraintLeft_toLeftOf="@+id/button1"
+        app:layout_constraintRight_toRightOf="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:text="button5"
+        ></Button>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/recyclerView"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="0dp"
+        android:layout_height="300dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
