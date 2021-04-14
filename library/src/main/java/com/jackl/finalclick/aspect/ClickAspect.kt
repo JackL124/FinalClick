@@ -2,7 +2,6 @@ package com.jackl.finalpermission.aspect
 
 import android.view.View
 import com.jackl.finalclick.Extension.isNeedQuickClick
-import com.jackl.finalclick.Extension.needQuickClick
 import com.jackl.finalclick.utils.ClickUtil
 import org.aspectj.lang.ProceedingJoinPoint
 import org.aspectj.lang.annotation.Around

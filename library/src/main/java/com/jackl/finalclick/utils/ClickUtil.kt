@@ -2,9 +2,17 @@ package com.jackl.finalclick.utils
 
 import android.view.View
 
+/**
+ * 快速点击工具类
+ * Created jackl on 2021/4/13
+ */
+
 object ClickUtil {
 
-    private var intervalMillis=2000
+    /**
+     * 间隔时间
+     * */
+    var intervalMillis=500
 
     /**
      * 最近一次点击的时间
@@ -20,7 +28,7 @@ object ClickUtil {
      * 是否是快速点击
      * @return  true:是，false:不是
      */
-    fun isFastClick(v: View): Boolean {
+    internal fun isFastClick(v: View): Boolean {
         val viewCode: Int = v.hashCode()
         val time = System.currentTimeMillis()
         val timeInterval = Math.abs(time - mLastClickTime)
