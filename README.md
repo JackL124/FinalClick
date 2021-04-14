@@ -62,7 +62,7 @@ ClickUtil.intervalMillis=500
 ```
  button.needQuickClick()
 ```
-当前view即可禁用防快速点击功能
+button即可禁用防快速点击功能
 
 详细用法可参考demo代码</br>
 [MainActivity](https://github.com/JackL124/FinalClick/blob/master/app/src/main/java/com/jackl/app/MainActivity.kt)</br>
