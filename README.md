@@ -76,7 +76,7 @@ button即可禁用防快速点击功能
 
 ## License
 
-    Copyright 2015 bingoogolapple
+    Copyright 2015 jackl
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
